@@ -63,6 +63,6 @@ with open(textpath, 'w') as f:
     f.write('\n'+"Total:"+'\t'+'\t'+'\t'+'\t'+"$ "+str(sum(value)))
     f.write('\n'+"Average Change:"+'\t'+'\t'+'\t'+"$ "+ str(round(avg_difference,2)))
     f.write('\n'+"Greatest Increase in Profits: "+'\t'+ str(max_difference_date)+'\t'+"($"+str(max_difference)+")")
-    f.write('\n'+"Greatest Decrease in Profits: "+'\t'+ str( min_difference_date)+'\t'+"($"+str(min_difference)+")")
+    f.write('\n'+"Greatest Decrease in Profits: "+'\t'+ str( min_difference_date)+'\t'+"($"+str(min_difference)+")"+'\n'+'\n'+'\n')
 
     
